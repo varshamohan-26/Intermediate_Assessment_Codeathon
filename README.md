@@ -62,6 +62,7 @@ Key activities included:
 - Created a reference query to calculate average fuel consumption by Vehicle ID using Group By.
 - Merged the average fuel consumption table back into the trip dataset.
 - Created a Fuel Cost column using the assumed fuel price of ₹95 per litre.
+- Created a calculated column named "Route" using DAX formula by combining origin and destination column.
 
 **Fuel consumption note:** The original dataset did not contain missing fuel consumption values. Therefore, no existing fuel consumption values were replaced. The average fuel consumption calculation and merge were performed to prepare the replacement logic.
 
